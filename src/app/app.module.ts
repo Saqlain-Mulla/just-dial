@@ -14,6 +14,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponentComponent } from './home-component/home-component.component';
+import { LearnRXComponent } from './learn-rx/learn-rx.component';
 
 const routerconfig : Routes = [
   {
@@ -24,7 +25,16 @@ const routerconfig : Routes = [
   {
     path:'homepath',
     component :HomeComponentComponent
+  },
+
+  {
+    path:'RX',
+    component : LearnRXComponent
   }
+
+
+
+
  
 ]
 
@@ -40,7 +50,8 @@ const routerconfig : Routes = [
     ItemsComponent,
     AboutUsComponent,
     ContactUsComponent,
-    HomeComponentComponent
+    HomeComponentComponent,
+    LearnRXComponent
   ],
   imports: [
     BrowserModule,
