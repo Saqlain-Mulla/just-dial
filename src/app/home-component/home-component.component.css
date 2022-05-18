@@ -1,0 +1,11 @@
+.one{
+
+    background-color: rgb(115, 115, 176);
+    min-height: 400px;
+}
+
+.inner
+{
+    background-color: rgb(160, 175, 175);
+    font-size: 50px;
+}
